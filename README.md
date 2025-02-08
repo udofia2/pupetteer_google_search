@@ -4,6 +4,9 @@ A web application that automates Google searches using Puppeteer with two method
 
 LIVE LINK: https://bubble-g4ba.onrender.com
 
+Here is a live DEMO
+- [Watch Demo Video](https://www.youtube.com/watch?v=s-EnG-tOItU) - See how it works
+
 ## Features
 
 - Two search methods:

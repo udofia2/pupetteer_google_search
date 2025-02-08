@@ -53,23 +53,4 @@ export class SearchController {
       res.status(500).json({ error: "Failed to perform search" });
     }
   }
-  async update(req: Request, res: Response): Promise<void> {
-    try {
-      const { query, limit = 10 } = req.query;
-
-      if (!query || typeof query !== "string") {
-        res.status(400).json({ error: "Search query is required" });
-        return;
-      }
-
-      const results = await this.searchService.googleSearchManual(
-        query,
-        Number(limit)
-      );
-      res.json({ results });
-    } catch (error) {
-      console.error("Search error:", error);
-      res.status(500).json({ error: "Failed to perform search" });
-    }
-  }
 }

@@ -2,6 +2,8 @@
 
 A web application that automates Google searches using Puppeteer with two methods: manual CAPTCHA solving and 2captcha API integration.
 
+LIVE LINK: https://bubble-g4ba.onrender.com
+
 ## Features
 
 - Two search methods:
